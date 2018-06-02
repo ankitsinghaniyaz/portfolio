@@ -200,7 +200,79 @@
       </el-row>
     </el-container>
 
-    <!-- More Projects -->
+    <!-- More Projects 0 -->
+    <el-container class="content bg-white">
+      <el-row>
+        <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
+          <el-row>
+            <el-col :md="12" :sm="24">
+              <el-main>
+                <div class="title">
+                  <!-- <h2 class="text">
+                    Equipment Connect
+                  </h2> -->
+                  <img style="margin-top: 25px" src="~/assets/eqc_logo.png" title="Equipment Connect" alt="Equipment Connect" height="50">
+                </div>
+                <p style="margin-top: 20px">
+                  Equipment Connect is Fin-tech startup based out of London, UK.
+                  It brings the funder, the equipment supplier and the SME under the same roof for hassle-free and easy equipment finance.
+                </p>
+                <h5 style="margin-top: 15px">Technology</h5>
+                <p style="margin-top: 15px">
+                  Equipment Connect tech stack is Laravel(PHP) API server and a Vue based single page application. It uses MySql as the database and AWS for storage and servers.
+                </p>
+                <p style="margin-top: 15px">
+                  <img class="logo-image" src="~/assets/vuejs_logo.png" title="Vue" alt="Vue" height="50">
+                  <img class="logo-image" src="~/assets/laravel_logo1.png" title="Laravel" alt="Laravel" height="50">
+                  <img class="logo-image" src="~/assets/mysql_logo.png" title="MySql" alt="MySql" height="50">
+                </p>
+
+                <el-row>
+                  <el-col class="center" style="margin-top: 25px">
+                    <a href="https://www.equipmentconnect.co.uk/" target="_blank">
+                      <el-button type="primary"> See More </el-button>
+                    </a>
+                  </el-col>
+                </el-row>
+              </el-main>
+            </el-col>
+            <el-col :md="12" :sm="24">
+              <el-main>
+                <div class="title">
+                  <h2 class="text" style="margin-top: 20px">
+                    Lead Shuttle
+                  </h2>
+                  <!-- <img class="logo-image" src="~/assets/oe_logo.svg" title="Android application" alt="Android" height="50"> -->
+                </div>
+                <p style="margin-top: 20px">
+                  Lead Suttle is an outbound lead generation startup. They feed sales pipeline of growing companies. They target, hunt and woo the prospect and make the sales process breeze.
+                </p>
+                <h5 style="margin-top: 15px">Technology</h5>
+                <p style="margin-top: 15px">
+                  The need was to create a while labelled platform where clients can track performance and perform analytics. It is built using Ruby on Rails, PostgreSQL and ES2015 JavaScript.
+                </p>
+                <p style="margin-top: 15px">
+                  <img class="logo-image" src="~/assets/rails_logo.png" title="Rails" alt="Rails" height="50">
+                  <img class="logo-image" src="~/assets/js_logo.png" title="JavaScript" alt="JavaScript" height="50">
+                  <img class="logo-image" title="Postgresql" src="~/assets/postgres_logo.png" alt="" height="50">
+                  <img class="logo-image" title="Heroku" src="~/assets/heroku_logo.svg" alt="" height="50">
+                </p>
+
+                <el-row>
+                  <el-col class="center" style="margin-top: 25px">
+                    <a href="https://leadshuttle.com/" target="_blank">
+                      <el-button type="primary"> See More </el-button>
+                    </a>
+                  </el-col>
+                </el-row>
+              </el-main>
+            </el-col>
+          </el-row>
+        </el-col>
+      </el-row>
+    </el-container>
+
+    <!-- More Projects 1 -->
     <el-container class="content bg-white">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
@@ -280,6 +352,8 @@
         </el-col>
       </el-row>
     </el-container>
+
+    <!-- More projects 2 -->
     <el-container class="content bg-light">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
