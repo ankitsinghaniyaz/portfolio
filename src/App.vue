@@ -4,49 +4,52 @@
     <section class="container mx-auto py-4 px-4">
       <h2 id="about-me" class="my-4">About Me</h2>
       <div class="flex flex-wrap items-start">
-        <div
-          class="w-full rounded bg-white outline border border-grey-light flex flex-col justify-between leading-normal flex-auto h-full p-4"
-        >
-          <div class="flex flex-row align-end">
-            <h1 class="self-start">Ankit Singhaniya</h1>
-            <span class="self-start rounded-full bg-green uppercase px-2 py-1 text-xs text-white font-bold mr-3 ml-4 mt-3">
-              Available
-            </span>
-          </div>
+        <div class="w-full rounded bg-white outline border border-grey-light flex flex-col justify-between leading-normal flex-auto h-full p-4">
+          <div class="flex flex-row">
+            <div>
+              <div class="flex flex-row align-end">
+                <h1 class="self-start leading-none">Ankit Singhaniya</h1>
+                <span class="self-start rounded-full bg-green uppercase px-2 py-1 text-xs text-white font-bold mr-3 ml-4 mt-1 md:block hidden">
+                  Available
+                </span>
+              </div>
 
-          <h3 class="text-grey-darkest">Full Stack Developer</h3>
-          <div class="social">
-            <a
-              target="_blank"
-              href="//github.com/ankitsinghaniyaz"
-              class="no-underline text-black text-2xl pr-3"
-            >
-              <i class="icon-github"></i>
-            </a>
-            <a
-              target="_blank"
-              href="//twitter.com/aks0510"
-              class="no-underline text-black text-2xl pr-3"
-            >
-              <i class="icon-twitter"></i>
-            </a>
-            <a
-              target="_blank"
-              href="//linkedin.com/in/ankitsinghaniyaz"
-              class="no-underline text-black text-2xl pr-3"
-            >
-              <i class="icon-linkedin"></i>
-            </a>
-            <a
-              target="_blank"
-              href="http://classandobjects.com"
-              class="no-underline text-black text-2xl pr-3"
-            >
-              <i class="icon-globe"></i>
-            </a>
-          </div>
-          <div class="mt-2">
-            <a href="https://stackexchange.com/users/3517359"><img src="https://stackexchange.com/users/flair/3517359.png?theme=clean" width="208" height="58" alt="profile for aks on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for aks on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+              <h3 class="text-grey-darkest font-semibold text-sm mb-4 mt-2">Full Stack Software Engineer</h3>
+              <div class="social">
+                <a
+                  target="_blank"
+                  href="//github.com/ankitsinghaniyaz"
+                  class="no-underline text-black text-2xl pr-3"
+                >
+                  <i class="icon-github"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="//twitter.com/aks0510"
+                  class="no-underline text-black text-2xl pr-3"
+                >
+                  <i class="icon-twitter"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="//linkedin.com/in/ankitsinghaniyaz"
+                  class="no-underline text-black text-2xl pr-3"
+                >
+                  <i class="icon-linkedin"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="http://classandobjects.com"
+                  class="no-underline text-black text-2xl pr-3"
+                >
+                  <i class="icon-globe"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="ml-auto sm:block hidden">
+              <a href="https://stackexchange.com/users/3517359"><img src="https://stackexchange.com/users/flair/3517359.png?theme=clean" width="208" height="58" alt="profile for aks on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for aks on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+            </div>
           </div>
           <p class="mt-4 text-grey-darkest">
             Most of the times you will find me dabbling with some idea unless I am working hard to earn a livelihood. To me, coding is an art, editor my canvas and keywords are my brush. When inspiration strikes, I sit down to paint algorithms, which shall be maintained, extended and tested for the ages to come.
