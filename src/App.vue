@@ -125,9 +125,10 @@
 </template>
 
 <script>
+import eitoss from "@/assets/img/eitoss.png";
+import skymd from "@/assets/img/skymd.png";
 import rumie from "@/assets/img/rumie2.png";
 import guestnetwork from "@/assets/img/guestnetwork.png";
-import skymd from "@/assets/img/skymd.png";
 import advertkit from "@/assets/img/advertkit2.png";
 import formester from "@/assets/img/fms1.png";
 import shareito from "@/assets/img/sto2.png";
@@ -157,6 +158,8 @@ import android from "@/assets/img/android_logo.png";
 import java from "@/assets/img/java_logo.svg";
 import go from "@/assets/img/go_logo.jpg";
 import angular from "@/assets/img/angular.png";
+import graphql from "@/assets/img/graphql.png";
+import flutter from "@/assets/img/flutter.png";
 
 import alon from "@/assets/img/alon.jpeg";
 import bogdan from "@/assets/img/bogdan.jpeg";
@@ -172,7 +175,17 @@ export default {
     return {
       projects: [
         {
-          title: "SkyMd",
+          title: "Eitoss",
+          role: "Software Consultant",
+          description:
+            "SkyMd is a telemedicine platform for dermatology related problems. It helps a patient get access to the best doctors without ever leaving their home. The app is building using Rails and MySql and supports thousands of active users every month.",
+          icons: [rails, react, graphql, flutter],
+          link: "https://eitoss.com/",
+          c2a: "Know More",
+          thumbnail: eitoss
+        },
+        {
+          title: "SkyMD",
           role: "Software Consultant",
           description:
             "SkyMd is a telemedicine platform for dermatology related problems. It helps a patient get access to the best doctors without ever leaving their home. The app is building using Rails and MySql and supports thousands of active users every month.",
@@ -256,10 +269,20 @@ export default {
           role: "Content Creator",
           description:
             "HackerRank is one of the best competitive coding platform. It allows companies screen candidates with the help of tests that check their ability in given technology.",
-          icons: [react, redux],
+          icons: [react, vue],
           link: "https://www.hackerrank.com/",
           c2a: "See Questions",
           thumbnail: hr
+        },
+        {
+          title: "Advertkit",
+          role: "Full Stack Developer",
+          description:
+            "An alternative to Facebook Ads Manager. Manage, monitor and optimize your ads on Facebook Ads platform from a single place. User can create split ads with the intuitive and powerful interface. Track the progress of an ad using goals. Use advanced rules engine to automate boring and manual tasks.",
+          icons: [rails, react, redux, postgres, facebook_ads, elasticsearch],
+          link: "https://www.advertkit.com",
+          c2a: "Find More",
+          thumbnail: advertkit
         },
         {
           title: "Quoted",
@@ -282,16 +305,6 @@ export default {
           link: "https://bitbucket.org/ankitsinghaniyaz/ride-companion-api",
           c2a: "See Code",
           thumbnail: hr
-        },
-        {
-          title: "Advertkit",
-          role: "Full Stack Developer",
-          description:
-            "An alternative to Facebook Ads Manager. Manage, monitor and optimize your ads on Facebook Ads platform from a single place. User can create split ads with the intuitive and powerful interface. Track the progress of an ad using goals. Use advanced rules engine to automate boring and manual tasks.",
-          icons: [rails, react, redux, postgres, facebook_ads, elasticsearch],
-          link: "https://www.advertkit.com",
-          c2a: "Find More",
-          thumbnail: advertkit
         },
         {
           title: "BeautifulSearch",
