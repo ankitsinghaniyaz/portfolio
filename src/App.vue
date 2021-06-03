@@ -178,7 +178,7 @@ export default {
           title: "Eitoss",
           role: "Software Consultant",
           description:
-            "SkyMd is a telemedicine platform for dermatology related problems. It helps a patient get access to the best doctors without ever leaving their home. The app is building using Rails and MySql and supports thousands of active users every month.",
+            "Eitoss is a tool for digitized communication between managers and frontline workers. It builds on the concept of `Kaizen` and help companies build product that are driven by the people who are on the frontline.",
           icons: [rails, react, graphql, flutter],
           link: "https://eitoss.com/",
           c2a: "Know More",
