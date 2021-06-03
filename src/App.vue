@@ -178,7 +178,7 @@ export default {
           title: "Eitoss",
           role: "Software Consultant",
           description:
-            "Eitoss is a tool for digitized communication between managers and frontline workers. It builds on the concept of `Kaizen` and help companies build product that are driven by the people who are on the frontline.",
+            "Eitoss is a communication tool for managers and frontline workers. It builds on the concept of Kaizen and help companies build product that are driven by the people who are on the frontline.",
           icons: [rails, react, graphql, flutter],
           link: "https://eitoss.com/",
           c2a: "Know More",
