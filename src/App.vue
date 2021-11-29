@@ -116,7 +116,7 @@
       <div class="flex flex-wrap mt-2 mb-4">
         <a
           class="flex mx-auto bg-blue hover:bg-blue-dark text-white font-bold py-4 px-12 rounded no-underline"
-          href="mailto:ankit@shareito.com"
+          href="mailto:ankit@formester.com"
           target="_blank"
         >Contact Me</a>
       </div>
